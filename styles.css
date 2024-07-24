@@ -1,0 +1,137 @@
+body {
+    background-color: #19191a;
+    margin: 0px;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    background-color: #19191a;
+    border: 2px solid #19191a;
+}
+
+figure {
+    width: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+
+#cuadro {
+
+    width: 20px;
+}
+
+#perfil {
+    width: 30px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end
+
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    height: 78vh;
+
+}
+
+#logo {
+padding-top: 18vh;
+height: 92px;
+
+}
+
+#buscador {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    align-items: stretch;
+    height: 40px;
+    width: 472px;
+    border-radius: 25px;
+    margin: 25px 0px;
+ 
+}
+
+#buscador input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+article{
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    padding: 15px;
+    margin: 0px;
+    color: white;
+    border-bottom: 2px solid #19191a;
+}
+
+button {
+    background-color: rgb(56, 55, 55);
+    border: 1px solid rgb(56, 55, 55);
+    padding: 0 16px;
+    height: 36px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    margin: 25px 0px 20px 0px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header a {
+    font-size: 13px;
+    color: white;
+}
+
+
+footer a {
+    font-size: 14px;
+    color: #E8E8E8;
+}
+
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
